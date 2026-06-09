@@ -1,0 +1,29 @@
+:root {
+  --forest:   #0B2A1F;
+  --forest2:  #143A2C;
+  --forest3:  #1E4B3B;
+  --marigold: #FFB23A;
+  --marigold2:#F09C24;
+  --paper:    #FAF3E9;
+  --paper2:   #ECE9E0;
+  --ink:      #0E0E0C;
+  --ink60:    rgba(14,14,12,0.6);
+  --ink40:    rgba(14,14,12,0.4);
+  --ink15:    rgba(14,14,12,0.12);
+  --white:    #FFFFFF;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  background: var(--paper);
+  color: var(--forest);
+}
+
+a {
+  color: var(--forest2);
+  text-decoration: none;
+}
+
+a:hover { opacity: 0.7; }

@@ -4,12 +4,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>PEAKER</title>
+  <link rel="stylesheet" href="assets/style.css">
   <style>
-    * { margin: 0; padding: 0; box-sizing: border-box; }
     body {
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-      background: #1a2e1a;
-      color: #f5f0e8;
+      background: var(--forest);
+      color: var(--paper);
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -18,27 +17,28 @@
       text-align: center;
       padding: 24px;
     }
-    h1 { font-size: 48px; font-weight: 900; letter-spacing: 4px; margin-bottom: 16px; }
-    p { font-size: 16px; color: rgba(245,240,232,0.6); margin-bottom: 8px; }
-    .links { margin-top: 40px; display: flex; gap: 24px; flex-wrap: wrap; justify-content: center; }
-    a {
-      color: #f5c842;
-      text-decoration: none;
-      font-size: 14px;
-      font-weight: 600;
-      border-bottom: 1px solid rgba(245,200,66,0.3);
-      padding-bottom: 2px;
+    img.logo { width: 72px; margin-bottom: 20px; }
+    h1 { font-size: 40px; font-weight: 900; letter-spacing: 6px; margin-bottom: 10px; }
+    p { font-size: 15px; color: rgba(250,243,233,0.55); margin-bottom: 6px; }
+    .links { margin-top: 48px; display: flex; gap: 28px; flex-wrap: wrap; justify-content: center; }
+    .links a {
+      color: var(--marigold);
+      font-size: 13px;
+      font-weight: 700;
+      border-bottom: 1px solid rgba(255,178,58,0.3);
+      padding-bottom: 3px;
     }
-    a:hover { border-color: #f5c842; }
+    .links a:hover { opacity: 1; border-color: var(--marigold); }
   </style>
 </head>
 <body>
+  <img class="logo" src="assets/peaker_logo_white.png" alt="PEAKER">
   <h1>PEAKER</h1>
   <p>등산 기록 & 커뮤니티 앱</p>
   <p>Hiking tracking & community app</p>
   <div class="links">
-    <a href="https://kyubin30.notion.site/PEAKER-37a74f5a63c0803d998cd674d36a5195">개인정보 처리방침</a>
-    <a href="https://kyubin30.notion.site/Peaker-37a74f5a63c080db958ef60aa2d79c83">이용약관</a>
+    <a href="PEAKER/privacy.html">개인정보 처리방침</a>
+    <a href="PEAKER/terms.html">위치기반서비스 이용약관</a>
   </div>
 </body>
 </html>
