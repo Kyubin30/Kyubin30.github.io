@@ -20,15 +20,17 @@
     img.logo { width: 72px; margin-bottom: 20px; }
     h1 { font-size: 40px; font-weight: 900; letter-spacing: 6px; margin-bottom: 10px; }
     p { font-size: 15px; color: rgba(250,243,233,0.55); margin-bottom: 6px; }
-    .links { margin-top: 48px; display: flex; gap: 28px; flex-wrap: wrap; justify-content: center; }
+    .links { margin-top: 48px; }
     .links a {
+      display: inline-block;
       color: var(--marigold);
-      font-size: 13px;
+      font-size: 14px;
       font-weight: 700;
-      border-bottom: 1px solid rgba(255,178,58,0.3);
-      padding-bottom: 3px;
+      border: 1px solid rgba(255,178,58,0.4);
+      border-radius: 8px;
+      padding: 12px 28px;
     }
-    .links a:hover { opacity: 1; border-color: var(--marigold); }
+    .links a:hover { background: rgba(255,178,58,0.08); opacity: 1; }
   </style>
 </head>
 <body>
@@ -37,8 +39,7 @@
   <p>등산 기록 & 커뮤니티 앱</p>
   <p>Hiking tracking & community app</p>
   <div class="links">
-    <a href="PEAKER/privacy.html">개인정보 처리방침</a>
-    <a href="PEAKER/terms.html">위치기반서비스 이용약관</a>
+    <a href="PEAKER/">서비스 안내 →</a>
   </div>
 </body>
 </html>
